@@ -1,0 +1,80 @@
+/* Estilos de la página principal*/
+
+/* REVISAR PORQUÉ NO TOMA LOS ESTILOS*/
+ nav ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow:hidden;
+
+    background-color:gray 
+
+ }
+
+li {
+
+float: left;
+
+border-right: 1px  solid rgb(200, 98, 98) ;
+
+}
+
+li :last-child {
+
+    border-right: none;
+}
+
+li a {
+
+display: block;
+
+color: white;
+
+text-align: center;
+
+padding: 10px 25px;
+
+text-decoration: none;
+
+}
+
+.active {
+
+    background-color: salmon;
+}
+
+li a:hover:not(.active) {
+
+    background-color: blueviolet;
+}
+
+
+
+.container{
+
+ position: relative;  
+ width:100vw ; 
+ height: 100vh;
+ display:flex;
+ justify-content:center;
+ align-items: center;
+ gap: 10px;
+flex-wrap: wrap;
+
+}
+    
+img {
+
+  height: auto; 
+  width: auto; 
+  max-height: 300px;
+  max-width: 300px;
+
+}
+
+
+
+
