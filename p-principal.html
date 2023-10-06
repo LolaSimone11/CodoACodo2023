@@ -4,44 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>TITULO</title>
+    
+    <title>Codeflix</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-   <div> 
-        <h1>PELISPEDIA</h1>
-   </div>
-<!--navegador falta es ponerle el estilo-->
-    <nav>
-        <ul>
-            <li><a href="p-principal.html" class="">INICIO</a></li>
-            
-            <li><a href="peliculas.html" class="">PELICULAS</a></li>
-            
-            <li><a href="series.html" class="">SERIES</a></li>
-            
-        <li><a href="animes.html" class="">ANIMES</a></li>
-        </ul>
-    </nav>
-    <h2>PROXIMOS ESTRENOS</h2>
-    <!--slider, hay videos que ponen como realizarlo, yo no supe mucho -->
-    <div class="slider-frame">
+  <header>
     
-        <ul>
-            <li><img src="slider/slider1.jpg" alt="Pelicula de FIVE NIGHTS AT FREDDYS"></li>
-            <li><img src="slider/slider2.jpg" alt="Pelicula EL CONJURO 4"></li>
-            <li><img src="slider/slider3.jpg" alt="Pelicula OPPENHEIMER"></li>
-        
+      <a href="p-principal.html"><img class="logo" src="Logo.png"></a>
+     
+  </header>
+   <div> 
+    <h1>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Exo+2:ital,wght@1,600&display=swap" rel="stylesheet">
+    </h1>
+   </div>
+<!--navegador-->
+    <nav>
+      <h2>
+        <ul class="titulos">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&display=swap" rel="stylesheet">
+            <li><a href="peliculas.html" class="">PELICULAS</a></li>
+                
+            <li><a href="series.html" class="">SERIES</a></li>
+                
+            <li><a href="animes.html" class="">ANIMES</a></li>
         </ul>
+      </h2>  
+    </nav>
+    
+    <!--slider -->
+    <div class="slider-frame">
+        <h2>PROXIMOS ESTRENOS</h2>
+        
+        <div class="slider">
+          <ul>
+            <li>
+              <img src="slider/slider1.jpg" alt="">
+            </li>
+            <li>
+              <img src="slider/slider2.jpg" alt="">
+            </li>
+            <li>
+              <img src="slider/slider3.jpg" alt="">
+            </li>
+            
+          </ul>
+        </div>        
+    </div> 
+
+    <div class="yaEstrenados">
         <h2> ESTRENOS RECIENTES </h2>
-        <!--carrusel falta el estilo-->
-        <ul>
+            <ul>
             <li><img src="carrusel/carrusel2.jpg" alt="EVIL DEAD El despertar"></li>
             <li><img src="carrusel/carrusel3.jpg" alt="BARBIE"></li>
             <li><img src="carrusel/carrusel4.jpg" alt="Mario Bross"></li>
             <li><img src="carrusel/carrusel5.jpg" alt="SpiderUniverse "></li>
             <li><img src="carrusel/carrusel6.jpg" alt="GRAN TURISMO"></li>
         </ul>
+      </div>    
+        
 
-    </div>
+   
 </body>
 </html>
